@@ -14,7 +14,7 @@ const HeroSection = () => {
       >
         {/* Profile Image */}
         <div className="relative mb-6">
-          <div className="w-36 h-36 md:w-44 md:h-44 rounded-full border-gradient-orange overflow-hidden">
+          <div className="w-36 h-36 md:w-44 md:h-44 rounded-full border-gradient-pink overflow-hidden">
             <img
               src={profilePicture}
               alt="Lynda Ibekwe"
@@ -36,7 +36,7 @@ const HeroSection = () => {
 
         {/* Heading */}
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6">
-          I <span className="font-heading italic text-gradient-orange">build</span> CRM and AI automations that save time and increase revenue.
+          I <span className="font-heading italic text-gradient-pink">build</span> CRM and AI automations that save time and increase revenue.
         </h1>
 
         {/* Intro */}

@@ -15,7 +15,7 @@
     --popover: 0 0% 10%;
     --popover-foreground: 0 0% 95%;
 
-    --primary: 30 100% 50%;
+    --primary: 330 100% 55%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 0 0% 14%;
@@ -24,7 +24,7 @@
     --muted: 0 0% 16%;
     --muted-foreground: 0 0% 55%;
 
-    --accent: 30 100% 50%;
+    --accent: 330 100% 55%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -32,24 +32,24 @@
 
     --border: 0 0% 18%;
     --input: 0 0% 18%;
-    --ring: 30 100% 50%;
+    --ring: 330 100% 55%;
 
     --radius: 0.75rem;
 
     --sidebar-background: 0 0% 8%;
     --sidebar-foreground: 0 0% 90%;
-    --sidebar-primary: 30 100% 50%;
+    --sidebar-primary: 330 100% 55%;
     --sidebar-primary-foreground: 0 0% 100%;
     --sidebar-accent: 0 0% 14%;
     --sidebar-accent-foreground: 0 0% 90%;
     --sidebar-border: 0 0% 18%;
-    --sidebar-ring: 30 100% 50%;
+    --sidebar-ring: 330 100% 55%;
 
     --font-heading: 'Playfair Display', serif;
     --font-body: 'Inter', sans-serif;
 
-    --gradient-orange: linear-gradient(135deg, hsl(30 100% 50%), hsl(25 100% 45%));
-    --shadow-glow: 0 0 30px hsl(30 100% 50% / 0.3);
+    --gradient-pink: linear-gradient(135deg, hsl(330 100% 55%), hsl(320 100% 50%));
+    --shadow-glow: 0 0 30px hsl(330 100% 55% / 0.3);
   }
 }
 
@@ -77,19 +77,19 @@
     font-family: var(--font-body);
   }
 
-  .text-gradient-orange {
-    background: var(--gradient-orange);
+  .text-gradient-pink {
+    background: var(--gradient-pink);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
 
-  .glow-orange {
+  .glow-pink {
     box-shadow: var(--shadow-glow);
   }
 
-  .border-gradient-orange {
-    border: 3px solid hsl(30 100% 50%);
+  .border-gradient-pink {
+    border: 3px solid hsl(330 100% 55%);
   }
 }
 
